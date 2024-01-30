@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px 0 rgb(5, 5, 5);
+    background: #fff;
+    padding: 5px;
+    margin: 8% auto 0;
+    text-align: center;
+    width: 380px;
+    height: 320px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+}
+.Forgot-Password
+{
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    color: rgb(15, 17, 17);
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #999;
+    outline: none;
+    color: rosybrown;
+}
+button
+{
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.continue-btn
+{
+    background-color:  #db1c1c;
+}
+.continue-btn:hover
+{
+    background-color: #4caf50;
+    color: white;
+}

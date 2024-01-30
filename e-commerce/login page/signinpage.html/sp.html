@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Sign Up Page</title>
+        
+    </head>
+    <style>
+        body{
+            width: 500px;
+           height: 650px;
+    box-shadow: 0 0 10px 0 rgb(5, 5, 5);
+    background: #fff;
+    padding: 30px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        }
+        .sign-up-form h1
+        {
+            color: black;
+            margin-bottom: 30px;
+
+        }
+        .sign-up-form img
+        {
+            border-radius: 300px;
+        }
+        .input-box
+        {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 250px;
+            border: 1px solid #999;
+            outline: none;
+        }
+        button
+        {
+           color: #fff;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .sign-btn
+        {
+            background-color:  #db1c1c;
+        }
+        .sign-btn:hover
+        {
+            background-color: #4caf50;
+            color: white;
+        }
+        .facebook-btn
+        {
+            background-color:  #db1c1c;
+        }
+        .facebook-btn:hover
+        {
+            background-color: #4caf50;
+            color: white;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        hr
+        {
+            margin-top: 20px;
+            width: 80%;
+        }
+        .or
+        {
+            background: #fff;
+            width: 30px;
+            margin: -19px auto 10px;
+        }
+        img
+        {
+            width: 70px;
+            margin-top: -50px;
+        }
+        .para{
+            font-weight: 900;
+            margin-top: -4px;
+        }        
+        
+    </style>
+    <body>
+        <div class="sign-up-form">
+            <img src="user-Icon.jpg">
+            <h1>Sign Up Now</h1>
+            <form>
+                <input type="email" class="input-box" placeholder="your email">
+                <input type="password" class="input-box" placeholder="your password">
+                <input  type="first name" class="input-box" placeholder="first name">
+                <input  type="last name" class="input-box" placeholder="last name">
+                <input  type="phone no." class="input-box" placeholder="phone no.">
+                <input  type="city" class="input-box" placeholder="city">
+                <p> <span><input type="checkbox"></span> Agree to the term of sevices</p>
+                <button type="button" class="sign-btn">Sign Up</button>
+                <hr>
+                <p class="or">OR</p>
+                <button type="button" class="facebook-btn">Login with facebook</button>
+                <p class="para">Do you have an account? <a href="#">sign in</a></p>
+            </form>
+        </div>
+    </body>
+</html>
